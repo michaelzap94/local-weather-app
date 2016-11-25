@@ -1,0 +1,77 @@
+html {
+  background: no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1 {
+  margin: 0 auto;
+  font-size: 70px;
+  text-align: center;
+  color: floralwhite;
+  font-family: Roboto, sans-serif, cursive;
+  font-weight: bolder;
+  text-shadow: 0 2.5px 1.5px #232323;
+}
+
+#myContainer {
+  margin: auto;
+  width: 95%;
+  max-width: 500px;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  font-size: 35px;
+  height: auto;
+}
+
+#niceAddress {
+  background-color: rgba(255, 153, 51, 0.9);
+  border-radius: 5px;
+}
+
+#iconTemp {
+  display: inline-block;
+}
+
+#iconTempWind {
+  background-color: rgba(255, 153, 51, 0.9);
+  border-radius: 5px;
+}
+
+#windSpeed {
+  font-size: 27px;
+}
+
+#description {
+  text-transform: uppercase;
+}
+
+#icon {
+  width: 2.2em;
+}
+
+button {
+  margin-top: 3%;
+  font-size: 25px;
+  cursor: pointer;
+  outline: none;
+  background: whitesmoke;
+  border: none;
+  color: black;
+  padding: 5px;
+  border-radius: 5px;
+  box-shadow: 3px 3px #999;
+  opacity: 0.90;
+}
+
+button:hover {
+  background: steelblue;
+}
+
+button:active {
+  background-color: royalblue;
+  box-shadow: 1px 1px #666;
+  transform: translate(4px, 4px);
+}
